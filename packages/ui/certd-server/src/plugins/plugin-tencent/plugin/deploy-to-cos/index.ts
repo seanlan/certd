@@ -6,7 +6,7 @@ import { TencentSslClient } from '../../lib/index.js';
 @IsTaskPlugin({
   name: 'DeployCertToTencentCosPlugin',
   title: '部署证书到腾讯云COS',
-  needPlus: true,
+  needPlus: false,
   icon: 'svg:icon-tencentcloud',
   group: pluginGroups.tencent.key,
   desc: '部署到腾讯云COS源站域名证书【注意：很不稳定，需要重试很多次偶尔才能成功一次】',
